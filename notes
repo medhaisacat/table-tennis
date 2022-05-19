@@ -1,0 +1,26 @@
+let currentPlayer =
+
+continueGame() {
+    // currentPlayer.serve();
+    toggleCurrentPlayer();
+}
+
+if(isThereAWinner()) {
+    // declare winner 
+} else {
+    //continue game
+}
+
+-------------------------------------------------------
+
+class Player {
+    constructor(name) {
+        this.name = name;
+    }
+    score;
+    set score(points) {
+        this.score += points;
+    }
+}
+
+
